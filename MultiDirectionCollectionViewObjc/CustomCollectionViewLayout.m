@@ -35,7 +35,7 @@ static const double CELL_WIDTH = 100.0;
 
                     // Update all items in the first row.
                     if (section == 0) {
-                        for (int item = 0; item < [self.collectionView numberOfItemsInSection:item]; item++) {
+                        for (int item = 0; item < [self.collectionView numberOfItemsInSection:section]; item++) {
 
                             // Build indexPath to get attributes from dictionary.
                             NSIndexPath *indexPath = [NSIndexPath indexPathForItem:item inSection:section];
